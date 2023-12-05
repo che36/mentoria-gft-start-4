@@ -57,4 +57,16 @@ public abstract class FuncionarioPJ {
     public void setValorRemuneracao(Double valorRemuneracao) {
         this.valorRemuneracao = valorRemuneracao;
     }
+
+    @Override
+    public String toString() {
+        return "FuncionarioPJ{" +
+                "nome='" + nome + '\'' +
+                ", documento='" + documento + '\'' +
+                ", endereco=" + endereco +
+                ", horasTrabalhadas=" + horasTrabalhadas +
+                ", valorHora=" + valorHora +
+                ", valorRemuneracao=" + valorRemuneracao +
+                '}';
+    }
 }
