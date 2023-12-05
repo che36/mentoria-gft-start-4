@@ -1,5 +1,12 @@
 public class OperadorDeCaixa extends FuncionarioCLT {
 
+    public OperadorDeCaixa(String nome, String documento, Double valorSalario, Endereco endereco) {
+        super(nome, documento, valorSalario, endereco);
+    }
+
+    public OperadorDeCaixa() {
+    }
+
     @Override
     public String toString() {
         return "OperadorDeCaixa{" +
