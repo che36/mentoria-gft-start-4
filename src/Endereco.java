@@ -35,4 +35,13 @@ public class Endereco {
     public void setBairro(String bairro) {
         this.bairro = bairro;
     }
+
+    @Override
+    public String toString() {
+        return "Endereco{" +
+                "rua='" + rua + '\'' +
+                ", complemento='" + complemento + '\'' +
+                ", bairro='" + bairro + '\'' +
+                '}';
+    }
 }
