@@ -11,6 +11,10 @@ public abstract class FuncionarioCLT {
         this.endereco = endereco;
     }
 
+    public FuncionarioCLT() {
+
+    }
+
     public String getNome() {
         return nome;
     }
