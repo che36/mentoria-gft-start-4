@@ -5,6 +5,11 @@ public class Vendedor extends FuncionarioCLT {
         super(nome, documento, valorSalario, endereco);
     }
 
+    public Vendedor() {
+        super();
+
+    }
+
     @Override
     public String toString() {
         return "Vendedor{" +
