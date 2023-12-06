@@ -17,6 +17,7 @@ public class Vendedor extends FuncionarioCLT {
                 ", documento='" + documento + '\'' +
                 ", valorSalario=" + valorSalario +
                 ", endereco=" + endereco.getBairro() +
+                ", valorBonificacao=" + this.valorBonificacao +
                 '}';
     }
 }
