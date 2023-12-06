@@ -1,3 +1,8 @@
+package models;
+
+import models.CalculaBonificacao;
+import models.FuncionarioPJ;
+
 public class Gerente extends FuncionarioPJ implements CalculaBonificacao {
     private Double valorBonificacao;
 
@@ -8,7 +13,7 @@ public class Gerente extends FuncionarioPJ implements CalculaBonificacao {
 
     @Override
     public String toString() {
-        return "Gerente{" +
+        return "models.Gerente{" +
                 "nome='" + super.getNome() + '\'' +
                 ", documento='" + super.getDocumento() + '\'' +
                 ", endereco=" + super.getEndereco().getRua() +

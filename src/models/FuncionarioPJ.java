@@ -1,3 +1,7 @@
+package models;
+
+import models.Endereco;
+
 public abstract class FuncionarioPJ {
     private String nome;
     private String documento;
@@ -60,7 +64,7 @@ public abstract class FuncionarioPJ {
 
     @Override
     public String toString() {
-        return "FuncionarioPJ{" +
+        return "models.FuncionarioPJ{" +
                 "nome='" + nome + '\'' +
                 ", documento='" + documento + '\'' +
                 ", endereco=" + endereco +

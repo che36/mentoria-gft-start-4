@@ -1,3 +1,7 @@
+package models;
+
+import models.Endereco;
+
 public abstract class FuncionarioCLT {
     protected String nome;
     protected String documento;

@@ -1,7 +1,11 @@
+import models.Endereco;
+import models.Gerente;
+import models.OperadorDeCaixa;
+import models.Vendedor;
 
 public class Main {
     public static void main(String[] args) {
-        Endereco endereco = new Endereco("Rua do funcionario", "Complemento do Endereco", "Bairro do funcionario");
+        Endereco endereco = new Endereco("Rua do funcionario", "Complemento do models.Endereco", "Bairro do funcionario");
         Vendedor vendedor = new Vendedor();
         vendedor.setNome("Cesar Constanzo");
         vendedor.setDocumento("123456465-89");
