@@ -7,6 +7,7 @@ public class Main {
         vendedor.setDocumento("123456465-89");
         vendedor.setValorSalario(1000d);
         vendedor.setEndereco(endereco);
+        vendedor.calculaBonificacao(2d);
         System.out.println(vendedor);
 
         OperadorDeCaixa operadorDeCaixa = new OperadorDeCaixa("Operador de Caixa", "132456.78", 150d, endereco);
@@ -19,7 +20,7 @@ public class Main {
         gerente.setHorasTrabalhadas(20);
         gerente.setValorHora(100d);
         gerente.calculaRemuneracao();
-        gerente.calulaBonificacao(10d);
+        gerente.calculaBonificacao(10d);
         System.out.println(gerente);
     }
 }
