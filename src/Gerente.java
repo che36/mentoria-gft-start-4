@@ -1,5 +1,10 @@
-public class Gerente extends FuncionarioPJ {
+public class Gerente extends FuncionarioPJ implements CalculaBonificacao {
     private Double valorBonificacao;
+
+    @Override
+    public void calulaBonificacao(Double porcentagemBonificacao) {
+
+    }
 
     @Override
     public String toString() {
@@ -13,4 +18,5 @@ public class Gerente extends FuncionarioPJ {
                 ", valorBonificacao=" + this.valorBonificacao +
                 '}';
     }
+
 }
