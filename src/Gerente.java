@@ -1,4 +1,5 @@
 public class Gerente extends FuncionarioPJ {
+    private Double valorBonificacao;
 
     @Override
     public String toString() {
@@ -9,6 +10,7 @@ public class Gerente extends FuncionarioPJ {
                 ", horasTrabalhadas=" + super.getHorasTrabalhadas() +
                 ", valorHora=" + super.getValorHora() +
                 ", valorRemuneracao=" + super.getValorRemuneracao() +
+                ", valorBonificacao=" + this.valorBonificacao +
                 '}';
     }
 }
