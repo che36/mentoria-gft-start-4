@@ -3,7 +3,7 @@ public class Gerente extends FuncionarioPJ implements CalculaBonificacao {
 
     @Override
     public void calulaBonificacao(Double porcentagemBonificacao) {
-
+        this.valorBonificacao = (super.getValorRemuneracao() * (porcentagemBonificacao / 100d));
     }
 
     @Override
